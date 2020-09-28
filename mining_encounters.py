@@ -73,7 +73,7 @@
 		elif dice == 37:
 			desc = f'and you come across a large room with a high ceiling and you can see some torches lit along the wall.'
 		elif dice == 38:
-			desc = f'and you find a dead end Make **DC 14 Arcana Check to discover that it is just an illusion and behind it the cave network continues.' 
+			desc = f'and you find a dead end Make **DC 14 Arcana Check** to discover that it is just an illusion and behind it the cave network continues.' 
 		elif dice == 39:
 			desc = f'but you enter an room with gruesome bones with rotting flesh laying around, you have a really bad feeling that something terrible has happened here.'
 		elif dice == 40:
@@ -127,10 +127,38 @@
 		elif dice == 64:
 			desc = 	f'but you come across an exact copy of the <#745568550676070420>?'
 		elif dice == 65:
-			desc = 	f'and you find a small node of copper worth **{roll("1d24mi7")}sp**. Make a **DC8 STR check** to add the gold directly to your pouch.'
+			desc = 	f'and you find a small node of copper worth **{roll("1d34mi12")}sp**. Make a **DC8 STR check** to add the gold directly to your pouch.'
 		elif dice == 66:
-			desc = 	f'and you find a mediocre node of copper worth **{roll("1d16mi15")}sp**. Make a **DC10 STR check** to add the gold directly to your pouch.'
+			desc = 	f'and you find a mediocre node of copper worth **{roll("1d8mi3")}gp**. Make a **DC10 STR check** to add the gold directly to your pouch.'
 		elif dice == 67:
 			desc = 	f'and you come across a room with a magical pickaxe, that you can use 5 times to skip an strength check until it breaks.'
 		elif dice == 68:
 			desc = 	f'but you come across an room dimly lit with an table in the centre and you see 3 goblins and a hobgoblin drinking. Make a **DC8 Stealth check** to pass unnoticed!'
+		elif dice == 69:
+			desc = 	f'but you come across some trails of a dragon! Seems like there is one roaming the caves...'
+		elif dice == 70:
+			desc = 	f'and you come across a black dragons scale worth **{roll("1d20mi12")}gp** aswell as some trails of a dragon. You are getting an bad feeling.'
+		elif dice == 71:
+			desc = 	f'but you find a room with some burnt down bookshelves aswell as charred skeletons. You are unsure to continue your journey onwards.'
+		elif dice == 72:
+			desc = 	f'and you venture deeper into this abyss only to realise a living **Shadow** has been following you! {disengage}'
+		elif dice == 73:
+			desc = 	f'and you get to your previously entered room? But you only went straight further...'
+		elif dice == 74:
+			desc = 	f'but you come across three Kenku talking about how they robbed someone in Wittiga. You can notice they got a coin pouch with 30gp. **Make a DC14 Stealth Check** to pass unnoticed {disengage}'
+		elif dice == 75:
+			desc = 	f'but you find a steep slide deeper into the cave. If you try to slide, make a DC12 **DEX SAVE** to not get hurt or type `!hp -d4 [Bludgeoning]`'
+		elif dice == 76:
+			desc = 	f'but you come across a batch of violet fungus. After closer inspection they seem to be alive! {disengage}'
+		elif dice == 77:
+			desc = 	f'but you walk into a tight hallway. You might need to squeeze to get through!'
+		elif dice == 78:
+			desc = 	f'and you find a small node of copper worth **{roll("1d34mi12")}sp**. Make a **DC8 STR check** to add the gold directly to your pouch.'
+		elif dice == 79:
+			desc = 	f'and you find an empty room. Make a **DC15 Perception Check** to discover a hidden stash containing **{roll("1d30mi8")}gp** add the gold directly to your pouch.'
+		elif dice == 80:
+			desc = 	f'but you see a Bugbear talking to a goblin. Make a **DC12 Stealth Check** to go unnoticed {disengage}'
+		elif dice == 81:
+			desc = 	f'and you come across the den of a cave bear! {disengage}'
+		elif dice == 82:
+			desc = 	f'but you reach an locked arcane door... No matter your efforts you cant seem to open nor move it.'
