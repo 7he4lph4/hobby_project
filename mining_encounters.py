@@ -160,3 +160,39 @@
 			desc = 	f'but you see a bugbear talking to a goblin. Make a **DC12 Stealth Check** to pass unnoticed. {disengage}'
 		elif dice == 81:
 			desc = 	f'and you come across a **`!monster Cavelight Moss`**! {disengage}'
+		elif dice == 82:
+			desc = 	f'and you come across two **`!monster Bugbear`** talking with a table and a pouch of gold containing **{roll("1d22mi12")}gp**! {disengage}'
+		elif dice == 83:
+			desc = 	f'and you come across a mediocre node of copper worth **{roll("1d8mi3")}gp**. Make a **DC10 STR check** to add the gold directly to your pouch.'
+		elif dice == 84:
+			desc = 	f'and you surprisingly find a massive node of copper worth **{roll("1d24mi12")}gp**. Make a **DC12 STR check** to add the gold directly to your pouch.' 
+		elif dice == 85:
+			desc = 	f'but you come across four **`!monster Hobgoblin`** with a crate of swords worth **{roll("1d50mi30")}gp**! Make a **DC15 Stealth Check** to pass unnoticed. {disengage}'
+		elif dice == 86:
+			desc = 	f'and you come across a mediocre node of iron worth **{roll("1d26mi14")}gp**! But it is getting mined by two **`!monster Goblin`** and a **`!monster Bugbear`** watching over them. Make a **DC13 Stealth Check** to pass unnoticed. {disengage}'
+		elif dice == 87:
+			desc = 	f'but you come across two **`!monster Ghoul`** feasting on some dead cultists, which have **{roll("1d200mi70")}sp** in their pouches. Make a **DC14 Stealth Check** to pass unnoticed. {disengage}'
+		elif dice == 88:
+			desc = 	f'and you find a small node of silver worth **{roll("1d45mi20")}sp**. Make a **DC8 STR check** to add the gold directly to your pouch.'
+		elif dice == 89:
+			desc = 	f'and you find a mediocre node of silver worth **{roll("1d12mi5")}gp**. Make a **DC10 STR check** to add the gold directly to your pouch.'
+		elif dice == 90:
+			desc = 	f'and you find a small node of silver worth **{roll("1d45mi20")}sp**. Make a **DC8 STR check** to add the gold directly to your pouch.'
+		elif dice == 91:
+			desc = 	f'but you come across a beautiful part of the cavern with lots of different fungi and moss covering the walls in different colours.'
+		elif dice == 92:
+			desc = 	f'and you find a underground lake. The waters look uninviting.'
+		elif dice == 93:
+			desc = 	f'and you come across a statue resembling a deity. Make a **DC12 Religion check** to find out that you get **20gp** if you offer a piece of coal.'
+		elif dice == 94:
+			desc = 	f'but you trigger a spiked net trap above you! Make a DC13 **DEX SAVE** to not get hurt or type `!hp -d4 [Piercing]`'
+		elif dice == 95:
+			desc = 	f'but you come across a longer cave hall. As you step further into it.. A giant boulder falls behind you and rolls towards you! Make a **DC14 Athletics Check** to not get hurt or type `!hp -5 [bludgeoning]`'
+		elif dice == 96:
+			desc = 	f'and make a **DC12 Perception Check** to find a silver ring on the floor worth **{roll("1d25mi8")}gp**.'
+		elif dice == 97:
+			desc = 	f'but you come across three **`!monster Gray Ooze`** that are digesting a some corpses. You also notice two unharmed potions. Make a **DC12 Arcana Check** to find out that these are Potions of Heroism. {disengage}' 
+		elif dice == 98:
+			desc = 	f'and you find a crate of alchemist supplies. Maybe you can sell it?'
+		elif dice == 99:
+			desc = 	f'and you come across a heavy armored door. You also notice it is magically locked aswell. Make a **DC32 STR check** to burst it open or make a **DC24 Thieves\' Tools check** if you have one with `!tool thi dex`. You can dispel the magic lock with a fitting spell and reduce the Difficulty of those Checks by 8.'
