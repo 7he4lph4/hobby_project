@@ -19,7 +19,7 @@
 		elif dice == 10:
 			desc = f'and you find a wooden door. It is locked. Make a **DC14 Thieves\' Tools check** if you have one with `!tool thi dex`. Or maybe even break it open? **Make a DC18 STR check**. If you get past, you get deeper into this cave system.'
 		elif dice == 11:
-			desc = f'and you come across a small iron node worth **{roll("1d12mi8")}gp**. Make a **DC8 STR check** to add the gold directly to your pouch'
+			desc = f'and you come across a small iron node worth **{roll("1d12mi6")}gp**. Make a **DC8 STR check** to add the gold directly to your pouch'
 		elif dice == 12:
 			desc = f'and find some skulls tied to a rope hanging from the ceiling. If you succeed on a **DC15 Investigation check**. You can identify that most are humanoid besides 2 others that are from beasts. You are unsure if you wanna continue your journey deeper.'
 		elif dice == 13:
@@ -95,7 +95,7 @@
 		elif dice == 48:
 			desc = f'and you find a small node of coal worth **{roll("1d24mi6")}sp** Make a **DC 8 Strength Check** to retreive it and add the silver directly to your pouch.'
 		elif dice == 49:
-			desc = f'and you see a cultist going further into one of the three ways. You also find some lavender scented candles on the floor.'
+			desc = f'and you come across a ancient note stating:\'The chains will not last forever. And the war will be lost\''
 		elif dice == 50:
 			desc = f'but you come across a Spectator that telepathically tells you: \'Leave this part of the Cavern and let me rest!\' **Make a DC15 Perception Check** to notice a crate with 3 Potions of Healing behind the Spectator.'
 		elif dice == 51:
@@ -107,7 +107,7 @@
 		elif dice == 54:
 			desc = f'and you come across a perfectly refreshing fountain. If you drink from it, the water stops flowing and type: `!hp + 2d4+2`.'
 		elif dice == 55:
-			desc = f'and you discover a small node of iron worth **{roll("1d12mi8")}gp**. Make a **DC8 STR check** to add the gold directly to your pouch.'
+			desc = f'and you discover a small node of iron worth **{roll("1d12mi6")}gp**. Make a **DC8 STR check** to add the gold directly to your pouch.'
 		elif dice == 56:
 			desc = f'and you discover a large node of coal worth **{roll("1d2mi10")}gp**. Make a **DC12 STR check** to Add the gold directly to your pouch.'
 		elif dice == 57:
@@ -145,7 +145,7 @@
 		elif dice == 73:
 			desc = 	f'despite going forward and exploring, you seem to find yourself in the same location you left from!'
 		elif dice == 74:
-			desc = 	f'but you come across three `!monster Kenku` talking about how they robbed someone in Wittiga. You can notice they got a coin pouch with 30gp. **Make a DC14 Stealth Check** to pass unnoticed {disengage}'
+			desc = 	f'and you come across a tunnel with a 5foot diameter in the floor leading towards another cave room.'
 		elif dice == 75:
 			desc = 	f'but you find a steep slide deeper into the cave. If you try to slide, make a DC12 **DEX SAVE** to not get hurt or type `!hp -d4 [Bludgeoning]`'
 		elif dice == 76:
@@ -196,3 +196,27 @@
 			desc = 	f'and you find a crate of alchemist supplies. Maybe you can sell it?'
 		elif dice == 99:
 			desc = 	f'and you come across a heavy armored door. You also notice it is magically locked aswell. Make a **DC32 STR check** to burst it open or make a **DC24 Thieves\' Tools check** if you have one with `!tool thi dex`. You can dispel the magic lock with a fitting spell and reduce the Difficulty of those Checks by 8.'
+		elif dice == 100:
+			desc = 	f'and you find an emerald stuck in the ground worth **{roll("1d90mi30")}gp**. Make a **DC14 STR check** to add the gold directly to your pouch.'
+		elif dice == 101:
+			desc = 	f'but you walk into a spider nest and two **`!monster Giant Spider`** drop down from the ceiling. {disengage}'
+		elif dice == 102:
+			desc = 	f'and you find a bead of nourishment. Doesnt taste that good but you are satisfied for the day.'
+		elif dice == 103:
+			desc = 	f'and you come across an old abandoned forge. Make a **DC12 History check** to notice it was made by dwarves. You can find some old Warpicks laying around that are worth **{roll("1d76mi24")}sp**. Add the gold directly to your pouch'
+		elif dice == 104:
+			desc = 	f'but you come across five **`!monster Skeleton`** they seem lost, forgotten and bloodthirsty. {disengage}'
+		elif dice == 105:
+			desc = 	f'and you find a small node of platinum worth **{roll("1d32mi18")}gp**. Make a **DC8 STR check** to add the gold directly to your pouch.''
+		elif dice == 106:
+			desc = 	f'but you come across a mountain of corpses... they seem dead for centuries. Make a **DC20 Investigation check** to find out that they fought in a war here in wittiga.'
+		elif dice == 107:
+			desc = 	f'but you find a painting on the stone walls of this part of the cavern. You can see a legendary humanoid being chained up. He seems to be filled with undying rage. You are uncertain how old this myth is or if its true...'
+		elif dice == 108:
+			desc = 	f'but you come across a mirror in the middle of a room. If you decide to look into it you see your closest friend betraying you...'
+		elif dice == 109:
+			desc = 	f'and you come across a door that leads into a library with all different kinds of informations. If you stay for longer than a minute you start hearing people telling you to leave. It gets louder every second.'
+		elif dice == 110:
+			desc = 	f'but you enter a room with corpses and skeletons partly stuck in walls... You wonder what terrible thing was able to do this.'
+		elif dice == 111:
+			desc = 	f'and you come across two bags. **{roll("1d2")}** On a 1 you open one of the bags and it contains **50gp** after taking it out both bags disappear. On a 2 you open one of the bags and you lose **{roll("1d50")}gp**.'
